@@ -3,6 +3,7 @@
 using DemoConsolaAvanzado;
 using DemoLibreria;
 using static DemoConsolaAvanzado.Delegado;
+using Cuadrado = DemoConsolaAvanzado.Cuadrado;
 
 // Biblioteca de clases Net Standar y métodos estáticos
 Console.WriteLine($"Suma de 5 y 3 es {Calculadora.sumar(5, 3)}");
