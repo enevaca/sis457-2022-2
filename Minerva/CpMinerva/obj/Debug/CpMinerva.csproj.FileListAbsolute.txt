@@ -1,0 +1,13 @@
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.csproj.AssemblyReference.cache
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.csproj.SuggestedBindingRedirects.cache
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.FrmAutenticacion.resources
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.FrmPrincipal.resources
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.FrmProducto.resources
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.Properties.Resources.resources
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.csproj.GenerateResource.cache
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\bin\Debug\CpMinerva.exe.config
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\bin\Debug\CpMinerva.exe
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\bin\Debug\CpMinerva.pdb
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.csproj.CoreCompileInputs.cache
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.exe
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.pdb
