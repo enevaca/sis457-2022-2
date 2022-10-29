@@ -11,3 +11,9 @@ F:\SIS457\sis457-2022-2\Minerva\CpMinerva\bin\Debug\CpMinerva.pdb
 F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.csproj.CoreCompileInputs.cache
 F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.exe
 F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.pdb
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\bin\Debug\C1.Win.4.dll
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\bin\Debug\C1.Win.C1Ribbon.4.dll
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\bin\Debug\C1.Win.4.xml
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\bin\Debug\C1.Win.C1Ribbon.4.xml
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.exe.licenses
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.csproj.CopyComplete

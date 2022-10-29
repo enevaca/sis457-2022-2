@@ -16,5 +16,15 @@ namespace CpMinerva
         {
             InitializeComponent();
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            new FrmPrincipal().ShowDialog();
+        }
     }
 }

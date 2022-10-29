@@ -16,5 +16,30 @@ namespace CpMinerva
         {
             InitializeComponent();
         }
+
+        private void FrmProducto_Load(object sender, EventArgs e)
+        {
+            Size = new Size(1039, 423);
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            Size = new Size(1039, 578);
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            Size = new Size(1039, 578);
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Size = new Size(1039, 423);
+        }
     }
 }

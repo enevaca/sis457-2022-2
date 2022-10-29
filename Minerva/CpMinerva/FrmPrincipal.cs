@@ -16,5 +16,10 @@ namespace CpMinerva
         {
             InitializeComponent();
         }
+
+        private void btnCaProducto_Click(object sender, EventArgs e)
+        {
+            new FrmProducto().ShowDialog();
+        }
     }
 }
