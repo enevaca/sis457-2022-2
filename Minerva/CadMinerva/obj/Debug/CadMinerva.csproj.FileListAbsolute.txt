@@ -1,0 +1,12 @@
+F:\SIS457\sis457-2022-2\Minerva\CadMinerva\bin\Debug\CadMinerva.dll.config
+F:\SIS457\sis457-2022-2\Minerva\CadMinerva\bin\Debug\CadMinerva.dll
+F:\SIS457\sis457-2022-2\Minerva\CadMinerva\bin\Debug\CadMinerva.pdb
+F:\SIS457\sis457-2022-2\Minerva\CadMinerva\bin\Debug\EntityFramework.dll
+F:\SIS457\sis457-2022-2\Minerva\CadMinerva\bin\Debug\EntityFramework.SqlServer.dll
+F:\SIS457\sis457-2022-2\Minerva\CadMinerva\bin\Debug\EntityFramework.xml
+F:\SIS457\sis457-2022-2\Minerva\CadMinerva\bin\Debug\EntityFramework.SqlServer.xml
+F:\SIS457\sis457-2022-2\Minerva\CadMinerva\obj\Debug\CadMinerva.csproj.AssemblyReference.cache
+F:\SIS457\sis457-2022-2\Minerva\CadMinerva\obj\Debug\CadMinerva.csproj.CoreCompileInputs.cache
+F:\SIS457\sis457-2022-2\Minerva\CadMinerva\obj\Debug\CadMinerva.csproj.CopyComplete
+F:\SIS457\sis457-2022-2\Minerva\CadMinerva\obj\Debug\CadMinerva.dll
+F:\SIS457\sis457-2022-2\Minerva\CadMinerva\obj\Debug\CadMinerva.pdb
