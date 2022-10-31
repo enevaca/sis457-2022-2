@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.txtParametro = new System.Windows.Forms.TextBox();
             this.lblUsuario = new System.Windows.Forms.Label();
@@ -52,12 +53,22 @@
             this.lblClave = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnBuscar = new System.Windows.Forms.Button();
+            this.erpCodigo = new System.Windows.Forms.ErrorProvider(this.components);
+            this.erpDescripcion = new System.Windows.Forms.ErrorProvider(this.components);
+            this.erpSaldo = new System.Windows.Forms.ErrorProvider(this.components);
+            this.erpUnidadMedida = new System.Windows.Forms.ErrorProvider(this.components);
+            this.erpPrecioVenta = new System.Windows.Forms.ErrorProvider(this.components);
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).BeginInit();
             this.panel1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudPrecioVenta)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudSaldo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpCodigo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpDescripcion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpSaldo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpUnidadMedida)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpPrecioVenta)).BeginInit();
             this.SuspendLayout();
             // 
             // lblTitulo
@@ -79,6 +90,7 @@
             this.txtParametro.Name = "txtParametro";
             this.txtParametro.Size = new System.Drawing.Size(876, 29);
             this.txtParametro.TabIndex = 7;
+            this.txtParametro.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtParametro_KeyPress);
             // 
             // lblUsuario
             // 
@@ -106,6 +118,9 @@
             // 
             this.dgvLista.AllowUserToAddRows = false;
             this.dgvLista.AllowUserToDeleteRows = false;
+            this.dgvLista.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvLista.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dgvLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLista.Location = new System.Drawing.Point(6, 28);
             this.dgvLista.Name = "dgvLista";
@@ -152,6 +167,7 @@
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // btnEditar
             // 
@@ -208,14 +224,14 @@
             this.nudPrecioVenta.Location = new System.Drawing.Point(626, 62);
             this.nudPrecioVenta.Name = "nudPrecioVenta";
             this.nudPrecioVenta.Size = new System.Drawing.Size(225, 29);
-            this.nudPrecioVenta.TabIndex = 17;
+            this.nudPrecioVenta.TabIndex = 4;
             // 
             // nudSaldo
             // 
             this.nudSaldo.Location = new System.Drawing.Point(161, 103);
             this.nudSaldo.Name = "nudSaldo";
             this.nudSaldo.Size = new System.Drawing.Size(225, 29);
-            this.nudSaldo.TabIndex = 16;
+            this.nudSaldo.TabIndex = 2;
             // 
             // btnCancelar
             // 
@@ -225,7 +241,7 @@
             this.btnCancelar.Location = new System.Drawing.Point(857, 96);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(123, 43);
-            this.btnCancelar.TabIndex = 15;
+            this.btnCancelar.TabIndex = 6;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -239,7 +255,7 @@
             this.btnGuardar.Location = new System.Drawing.Point(733, 96);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(118, 43);
-            this.btnGuardar.TabIndex = 12;
+            this.btnGuardar.TabIndex = 5;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGuardar.UseVisualStyleBackColor = true;
@@ -277,7 +293,7 @@
             this.cbxUnidadMedida.Location = new System.Drawing.Point(626, 20);
             this.cbxUnidadMedida.Name = "cbxUnidadMedida";
             this.cbxUnidadMedida.Size = new System.Drawing.Size(225, 32);
-            this.cbxUnidadMedida.TabIndex = 10;
+            this.cbxUnidadMedida.TabIndex = 3;
             // 
             // label2
             // 
@@ -294,9 +310,8 @@
             this.txtDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDescripcion.Location = new System.Drawing.Point(161, 62);
             this.txtDescripcion.Name = "txtDescripcion";
-            this.txtDescripcion.PasswordChar = '*';
             this.txtDescripcion.Size = new System.Drawing.Size(225, 29);
-            this.txtDescripcion.TabIndex = 8;
+            this.txtDescripcion.TabIndex = 1;
             // 
             // txtCodigo
             // 
@@ -304,7 +319,7 @@
             this.txtCodigo.Location = new System.Drawing.Point(161, 23);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(225, 29);
-            this.txtCodigo.TabIndex = 7;
+            this.txtCodigo.TabIndex = 0;
             // 
             // lblClave
             // 
@@ -331,7 +346,7 @@
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.Image = global::CpMinerva.Properties.Resources.search;
             this.btnBuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBuscar.Location = new System.Drawing.Point(900, 75);
+            this.btnBuscar.Location = new System.Drawing.Point(900, 80);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(112, 43);
             this.btnBuscar.TabIndex = 8;
@@ -339,6 +354,26 @@
             this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // erpCodigo
+            // 
+            this.erpCodigo.ContainerControl = this;
+            // 
+            // erpDescripcion
+            // 
+            this.erpDescripcion.ContainerControl = this;
+            // 
+            // erpSaldo
+            // 
+            this.erpSaldo.ContainerControl = this;
+            // 
+            // erpUnidadMedida
+            // 
+            this.erpUnidadMedida.ContainerControl = this;
+            // 
+            // erpPrecioVenta
+            // 
+            this.erpPrecioVenta.ContainerControl = this;
             // 
             // FrmProducto
             // 
@@ -368,6 +403,11 @@
             this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudPrecioVenta)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudSaldo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpCodigo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpDescripcion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpSaldo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpUnidadMedida)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.erpPrecioVenta)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -399,5 +439,10 @@
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.NumericUpDown nudPrecioVenta;
         private System.Windows.Forms.NumericUpDown nudSaldo;
+        private System.Windows.Forms.ErrorProvider erpCodigo;
+        private System.Windows.Forms.ErrorProvider erpDescripcion;
+        private System.Windows.Forms.ErrorProvider erpSaldo;
+        private System.Windows.Forms.ErrorProvider erpUnidadMedida;
+        private System.Windows.Forms.ErrorProvider erpPrecioVenta;
     }
 }
