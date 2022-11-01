@@ -27,3 +27,4 @@ F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.csproj.CoreCompile
 F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.csproj.CopyComplete
 F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.exe
 F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.pdb
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.FrmEmpleado.resources

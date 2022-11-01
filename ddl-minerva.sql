@@ -107,3 +107,25 @@ INSERT INTO Producto (codigo, descripcion, unidadMedida, saldo, precioVenta)
 VALUES ('MH200', 'Lapiz', 'Caja', 0, 10);
 
 
+
+
+
+ALTER PROC paEmpleadoListar @parametro VARCHAR(50)
+AS
+  SELECT u.id, u.idEmpleado, e.cedulaIdentidad, e.nombre, e.paterno, 
+	e.materno, e.direccion, e.celular, e.cargo, u.usuario, u.usuarioRegistro
+  FROM Empleado e
+  LEFT OUTER JOIN Usuario u ON e.id = u.idEmpleado
+  WHERE e.registroActivo=1 AND 
+	e.cedulaIdentidad+e.nombre+e.paterno+e.materno+ISNULL(u.usuario, '') LIKE '%'+@parametro+'%'
+
+
+
+ALTER PROC paUsuarioListar @parametro VARCHAR(50)
+AS
+  SELECT u.id, u.idEmpleado, e.cedulaIdentidad, e.nombre, e.paterno, 
+	e.materno, e.direccion, e.celular, e.cargo, u.usuario, u.usuarioRegistro
+  FROM Empleado e
+  INNER JOIN Usuario u ON e.id = u.idEmpleado
+  WHERE u.registroActivo=1 AND 
+	e.cedulaIdentidad+e.nombre+e.paterno+e.materno+u.usuario LIKE '%'+@parametro+'%'
