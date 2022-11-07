@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClnMinerva;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,9 +23,39 @@ namespace CpMinerva
             Application.Exit();
         }
 
+        private bool validar ()
+        {
+            bool esValido = true;
+            erpUsuario.SetError(txtUsuario, "");
+            erpClave.SetError(txtClave, "");
+
+            if (string.IsNullOrEmpty(txtUsuario.Text)) {
+                erpUsuario.SetError(txtUsuario, "El campo usuario es obligatorio");
+                esValido = false;
+            }
+            if (string.IsNullOrEmpty(txtClave.Text)) {
+                erpClave.SetError(txtClave, "El campo contraseña es obligatorio");
+                esValido = false;
+            }
+            return esValido;
+        }
+
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            new FrmPrincipal().ShowDialog();
+            if (validar())
+            {
+                var usuario = UsuarioCln.validar(txtUsuario.Text, Util.Encrypt(txtClave.Text));
+                if (usuario != null)
+                {
+                    Util.usuario = usuario;
+                    new FrmPrincipal().ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario y/o contraseña incorrecto", "::: Error - Minerva :::",
+                        MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
     }
 }

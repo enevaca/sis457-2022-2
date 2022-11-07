@@ -166,7 +166,7 @@ namespace CpMinerva
                 empleado.direccion = txtDireccion.Text.Trim();
                 empleado.celular = Convert.ToInt64(txtCelular.Text);
                 empleado.cargo = cbxCargo.Text;
-                empleado.usuarioRegistro = "sis457";
+                empleado.usuarioRegistro = Util.usuario.usuario;
                 empleado.fechaRegistro = DateTime.Now;
 
                 if (esNuevo)
@@ -178,7 +178,7 @@ namespace CpMinerva
                     {
                         var usuario = new Usuario();
                         usuario.usuario = txtUsuario.Text.Trim();
-                        usuario.clave = "SIS457";
+                        usuario.clave = Util.Encrypt("SIS457");
                         usuario.idEmpleado = idEmpleado;
                         usuario.usuarioRegistro = "sis457";
                         usuario.fechaRegistro = DateTime.Now;
