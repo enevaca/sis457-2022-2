@@ -28,3 +28,6 @@ F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.csproj.CopyComplet
 F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.exe
 F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.pdb
 F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.FrmEmpleado.resources
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.FrmBuscarProducto.resources
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.FrmCompra.resources
+F:\SIS457\sis457-2022-2\Minerva\CpMinerva\obj\Debug\CpMinerva.FrmVenta.resources

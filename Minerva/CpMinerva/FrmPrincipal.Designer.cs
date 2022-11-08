@@ -159,6 +159,7 @@
             this.btnCvCompra.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnCvCompra.SmallImage")));
             this.btnCvCompra.Text = "Registro de Compras";
             this.btnCvCompra.ToolTip = "Registro de Compras";
+            this.btnCvCompra.Click += new System.EventHandler(this.btnCvCompra_Click);
             // 
             // btnCvBuscarCompra
             // 
@@ -183,6 +184,7 @@
             this.btnCvVenta.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnCvVenta.SmallImage")));
             this.btnCvVenta.Text = "Registro de Ventas";
             this.btnCvVenta.ToolTip = "Registro de Ventas";
+            this.btnCvVenta.Click += new System.EventHandler(this.btnCvVenta_Click);
             // 
             // ribbonButton7
             // 
@@ -300,6 +302,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "::: Principal - Minerva :::";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPrincipal_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.c1Ribbon1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

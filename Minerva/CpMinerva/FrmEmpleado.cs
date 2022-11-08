@@ -22,6 +22,10 @@ namespace CpMinerva
 
         private void FrmEmpleado_Load(object sender, EventArgs e)
         {
+            txtNombre.KeyPress += Util.onlyLetters;
+            txtPaterno.KeyPress += Util.onlyLetters;
+            txtMaterno.KeyPress += Util.onlyLetters;
+            txtCelular.KeyPress += Util.onlyNumbers;
             Size = new Size(1039, 423);
             listar();
         }

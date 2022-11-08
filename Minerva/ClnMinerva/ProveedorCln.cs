@@ -57,7 +57,8 @@ namespace ClnMinerva
         {
             using (var contexto = new MinervaEntities())
             {
-                return contexto.Proveedor.Where(x => x.registroActivo.Value).ToList();
+                return contexto.Proveedor.Where(x => x.registroActivo.Value)
+                    .OrderBy(x => x.razonSocial).ToList();
             }
         }
 

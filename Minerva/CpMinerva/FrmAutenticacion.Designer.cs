@@ -84,6 +84,7 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(163, 29);
             this.txtUsuario.TabIndex = 3;
+            this.txtUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUsuario_KeyPress);
             // 
             // txtClave
             // 
@@ -93,6 +94,7 @@
             this.txtClave.PasswordChar = '*';
             this.txtClave.Size = new System.Drawing.Size(163, 29);
             this.txtClave.TabIndex = 4;
+            this.txtClave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClave_KeyPress);
             // 
             // pctLogo
             // 

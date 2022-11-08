@@ -1,20 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CpMinerva
 {
     public partial class FrmPrincipal : Form
     {
-        public FrmPrincipal()
+        FrmAutenticacion frmAutenticacion;
+        public FrmPrincipal(FrmAutenticacion frmAutenticacion)
         {
             InitializeComponent();
+            this.frmAutenticacion = frmAutenticacion;
+        }
+
+        private void FrmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            frmAutenticacion.Visible = true;
         }
 
         private void btnCaProducto_Click(object sender, EventArgs e)
@@ -25,6 +25,16 @@ namespace CpMinerva
         private void btnAdmEmpleado_Click(object sender, EventArgs e)
         {
             new FrmEmpleado().ShowDialog();
+        }
+
+        private void btnCvCompra_Click(object sender, EventArgs e)
+        {
+            new FrmCompra().ShowDialog();
+        }
+
+        private void btnCvVenta_Click(object sender, EventArgs e)
+        {
+            new FrmVenta().ShowDialog();
         }
     }
 }

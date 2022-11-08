@@ -37,6 +37,15 @@
             this.erpCelular = new System.Windows.Forms.ErrorProvider(this.components);
             this.btnCancelar = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.chkUsuario = new System.Windows.Forms.CheckBox();
+            this.txtDireccion = new System.Windows.Forms.TextBox();
+            this.txtCelular = new System.Windows.Forms.TextBox();
+            this.cbxCargo = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtPaterno = new System.Windows.Forms.TextBox();
+            this.txtMaterno = new System.Windows.Forms.TextBox();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -55,15 +64,6 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
-            this.txtMaterno = new System.Windows.Forms.TextBox();
-            this.txtPaterno = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.cbxCargo = new System.Windows.Forms.ComboBox();
-            this.txtCelular = new System.Windows.Forms.TextBox();
-            this.txtDireccion = new System.Windows.Forms.TextBox();
-            this.chkUsuario = new System.Windows.Forms.CheckBox();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.erpCargo = new System.Windows.Forms.ErrorProvider(this.components);
             this.erpUsuario = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.erpCi)).BeginInit();
@@ -121,7 +121,7 @@
             this.btnCancelar.Location = new System.Drawing.Point(857, 101);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(123, 43);
-            this.btnCancelar.TabIndex = 6;
+            this.btnCancelar.TabIndex = 10;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -154,6 +154,92 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos";
             // 
+            // txtUsuario
+            // 
+            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.Location = new System.Drawing.Point(604, 117);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(117, 29);
+            this.txtUsuario.TabIndex = 8;
+            this.txtUsuario.Visible = false;
+            // 
+            // chkUsuario
+            // 
+            this.chkUsuario.AutoSize = true;
+            this.chkUsuario.Location = new System.Drawing.Point(420, 118);
+            this.chkUsuario.Name = "chkUsuario";
+            this.chkUsuario.Size = new System.Drawing.Size(182, 28);
+            this.chkUsuario.TabIndex = 7;
+            this.chkUsuario.Text = "¿Asignar Usuario?";
+            this.chkUsuario.UseVisualStyleBackColor = true;
+            this.chkUsuario.CheckedChanged += new System.EventHandler(this.chkUsuario_CheckedChanged);
+            // 
+            // txtDireccion
+            // 
+            this.txtDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDireccion.Location = new System.Drawing.Point(511, 17);
+            this.txtDireccion.Name = "txtDireccion";
+            this.txtDireccion.Size = new System.Drawing.Size(453, 29);
+            this.txtDireccion.TabIndex = 4;
+            // 
+            // txtCelular
+            // 
+            this.txtCelular.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCelular.Location = new System.Drawing.Point(510, 50);
+            this.txtCelular.Name = "txtCelular";
+            this.txtCelular.Size = new System.Drawing.Size(211, 29);
+            this.txtCelular.TabIndex = 5;
+            // 
+            // cbxCargo
+            // 
+            this.cbxCargo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxCargo.FormattingEnabled = true;
+            this.cbxCargo.Items.AddRange(new object[] {
+            "Administrador",
+            "Cajero",
+            "Contador",
+            "Portero"});
+            this.cbxCargo.Location = new System.Drawing.Point(509, 82);
+            this.cbxCargo.Name = "cbxCargo";
+            this.cbxCargo.Size = new System.Drawing.Size(212, 32);
+            this.cbxCargo.TabIndex = 6;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(416, 85);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(71, 24);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "Cargo: ";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(22, 117);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(123, 24);
+            this.label5.TabIndex = 16;
+            this.label5.Text = "Ap. Materno: ";
+            // 
+            // txtPaterno
+            // 
+            this.txtPaterno.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPaterno.Location = new System.Drawing.Point(161, 82);
+            this.txtPaterno.Name = "txtPaterno";
+            this.txtPaterno.Size = new System.Drawing.Size(225, 29);
+            this.txtPaterno.TabIndex = 2;
+            // 
+            // txtMaterno
+            // 
+            this.txtMaterno.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaterno.Location = new System.Drawing.Point(161, 114);
+            this.txtMaterno.Name = "txtMaterno";
+            this.txtMaterno.Size = new System.Drawing.Size(225, 29);
+            this.txtMaterno.TabIndex = 3;
+            // 
             // btnGuardar
             // 
             this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -162,7 +248,7 @@
             this.btnGuardar.Location = new System.Drawing.Point(736, 101);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(118, 43);
-            this.btnGuardar.TabIndex = 5;
+            this.btnGuardar.TabIndex = 9;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnGuardar.UseVisualStyleBackColor = true;
@@ -361,92 +447,6 @@
             this.btnEditar.UseVisualStyleBackColor = true;
             this.btnEditar.Click += new System.EventHandler(this.btnEditar_Click);
             // 
-            // txtMaterno
-            // 
-            this.txtMaterno.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMaterno.Location = new System.Drawing.Point(161, 114);
-            this.txtMaterno.Name = "txtMaterno";
-            this.txtMaterno.Size = new System.Drawing.Size(225, 29);
-            this.txtMaterno.TabIndex = 14;
-            // 
-            // txtPaterno
-            // 
-            this.txtPaterno.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPaterno.Location = new System.Drawing.Point(161, 82);
-            this.txtPaterno.Name = "txtPaterno";
-            this.txtPaterno.Size = new System.Drawing.Size(225, 29);
-            this.txtPaterno.TabIndex = 15;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(22, 117);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(123, 24);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "Ap. Materno: ";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(416, 85);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(71, 24);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "Cargo: ";
-            // 
-            // cbxCargo
-            // 
-            this.cbxCargo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxCargo.FormattingEnabled = true;
-            this.cbxCargo.Items.AddRange(new object[] {
-            "Administrador",
-            "Cajero",
-            "Contador",
-            "Portero"});
-            this.cbxCargo.Location = new System.Drawing.Point(509, 82);
-            this.cbxCargo.Name = "cbxCargo";
-            this.cbxCargo.Size = new System.Drawing.Size(212, 32);
-            this.cbxCargo.TabIndex = 18;
-            // 
-            // txtCelular
-            // 
-            this.txtCelular.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCelular.Location = new System.Drawing.Point(510, 50);
-            this.txtCelular.Name = "txtCelular";
-            this.txtCelular.Size = new System.Drawing.Size(211, 29);
-            this.txtCelular.TabIndex = 19;
-            // 
-            // txtDireccion
-            // 
-            this.txtDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDireccion.Location = new System.Drawing.Point(511, 17);
-            this.txtDireccion.Name = "txtDireccion";
-            this.txtDireccion.Size = new System.Drawing.Size(453, 29);
-            this.txtDireccion.TabIndex = 20;
-            // 
-            // chkUsuario
-            // 
-            this.chkUsuario.AutoSize = true;
-            this.chkUsuario.Location = new System.Drawing.Point(420, 118);
-            this.chkUsuario.Name = "chkUsuario";
-            this.chkUsuario.Size = new System.Drawing.Size(182, 28);
-            this.chkUsuario.TabIndex = 21;
-            this.chkUsuario.Text = "¿Asignar Usuario?";
-            this.chkUsuario.UseVisualStyleBackColor = true;
-            this.chkUsuario.CheckedChanged += new System.EventHandler(this.chkUsuario_CheckedChanged);
-            // 
-            // txtUsuario
-            // 
-            this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsuario.Location = new System.Drawing.Point(604, 117);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(117, 29);
-            this.txtUsuario.TabIndex = 22;
-            this.txtUsuario.Visible = false;
-            // 
             // erpCargo
             // 
             this.erpCargo.ContainerControl = this;
@@ -470,7 +470,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "FrmEmpleado";
             this.ShowInTaskbar = false;

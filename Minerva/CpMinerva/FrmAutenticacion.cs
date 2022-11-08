@@ -48,7 +48,11 @@ namespace CpMinerva
                 if (usuario != null)
                 {
                     Util.usuario = usuario;
-                    new FrmPrincipal().ShowDialog();
+                    txtClave.Text = string.Empty;
+                    txtUsuario.Focus();
+                    txtUsuario.SelectAll();
+                    this.Visible = false;
+                    new FrmPrincipal(this).ShowDialog();
                 }
                 else
                 {
@@ -56,6 +60,16 @@ namespace CpMinerva
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private void txtClave_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter) btnAceptar.PerformClick();
+        }
+
+        private void txtUsuario_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter) txtClave.Focus();
         }
     }
 }
