@@ -1,13 +1,12 @@
 ﻿@model WebMinervaNetCore.Models.Producto
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar Producto";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Edit</h1>
+<h1>Editar Producto</h1>
 
-<h4>Producto</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -15,17 +14,17 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
-                <label asp-for="Codigo" class="control-label"></label>
+                <label class="control-label">Código</label>
                 <input asp-for="Codigo" class="form-control" />
                 <span asp-validation-for="Codigo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Descripcion" class="control-label"></label>
+                <label class="control-label">Descripción</label>
                 <input asp-for="Descripcion" class="form-control" />
                 <span asp-validation-for="Descripcion" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="UnidadMedida" class="control-label"></label>
+                <label class="control-label">Unidad de Medida</label>
                 <input asp-for="UnidadMedida" class="form-control" />
                 <span asp-validation-for="UnidadMedida" class="text-danger"></span>
             </div>
@@ -35,34 +34,22 @@
                 <span asp-validation-for="Saldo" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="PrecioVenta" class="control-label"></label>
+                <label class="control-label">Precio de Venta</label>
                 <input asp-for="PrecioVenta" class="form-control" />
                 <span asp-validation-for="PrecioVenta" class="text-danger"></span>
             </div>
+            <input asp-for="UsuarioRegistro" class="form-control" type="hidden" />
+            <input asp-for="FechaRegistro" class="form-control" type="hidden" />
+            <input asp-for="RegistroActivo" class="form-control" type="hidden" />
             <div class="form-group">
-                <label asp-for="UsuarioRegistro" class="control-label"></label>
-                <input asp-for="UsuarioRegistro" class="form-control" />
-                <span asp-validation-for="UsuarioRegistro" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="FechaRegistro" class="control-label"></label>
-                <input asp-for="FechaRegistro" class="form-control" />
-                <span asp-validation-for="FechaRegistro" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="RegistroActivo" class="control-label"></label>
-                <input asp-for="RegistroActivo" class="form-control" />
-                <span asp-validation-for="RegistroActivo" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Guardar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Volver a la lista</a>
 </div>
 
 @section Scripts {
