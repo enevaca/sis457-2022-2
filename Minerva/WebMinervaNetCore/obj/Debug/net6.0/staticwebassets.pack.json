@@ -1,0 +1,377 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebMinervaNetCore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebMinervaNetCore.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\img\\user.jpg"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib_old\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib_old\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib_old\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib_old\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib_old\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib_old\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib_old\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib_old\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib_old\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib_old\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib_old\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib_old\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\SIS457\\sis457-2022-2\\Minerva\\WebMinervaNetCore\\wwwroot\\lib_old\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib_old\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebMinervaNetCore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebMinervaNetCore.props",
+      "PackagePath": "build\\WebMinervaNetCore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebMinervaNetCore.props",
+      "PackagePath": "buildMultiTargeting\\WebMinervaNetCore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebMinervaNetCore.props",
+      "PackagePath": "buildTransitive\\WebMinervaNetCore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

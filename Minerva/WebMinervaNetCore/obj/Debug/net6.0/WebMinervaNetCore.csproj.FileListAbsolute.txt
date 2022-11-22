@@ -283,3 +283,8 @@ F:\SIS457\sis457-2022-2\Minerva\WebMinervaNetCore\bin\Debug\net6.0\WebMinervaNet
 F:\SIS457\sis457-2022-2\Minerva\WebMinervaNetCore\bin\Debug\net6.0\WebMinervaNetCore.pdb
 F:\SIS457\sis457-2022-2\Minerva\WebMinervaNetCore\obj\Debug\net6.0\WebMinervaNetCore.genruntimeconfig.cache
 F:\SIS457\sis457-2022-2\Minerva\WebMinervaNetCore\obj\Debug\net6.0\ref\WebMinervaNetCore.dll
+F:\SIS457\sis457-2022-2\Minerva\WebMinervaNetCore\obj\Debug\net6.0\staticwebassets\msbuild.WebMinervaNetCore.Microsoft.AspNetCore.StaticWebAssets.props
+F:\SIS457\sis457-2022-2\Minerva\WebMinervaNetCore\obj\Debug\net6.0\staticwebassets\msbuild.build.WebMinervaNetCore.props
+F:\SIS457\sis457-2022-2\Minerva\WebMinervaNetCore\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebMinervaNetCore.props
+F:\SIS457\sis457-2022-2\Minerva\WebMinervaNetCore\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebMinervaNetCore.props
+F:\SIS457\sis457-2022-2\Minerva\WebMinervaNetCore\obj\Debug\net6.0\staticwebassets.pack.json
